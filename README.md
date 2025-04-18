@@ -33,7 +33,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://mkerr-github.github.io/four-card-feature-section/](https://mkerr-github.github.io/four-card-feature-section/)
 
 ## My process
 
@@ -72,5 +72,5 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Website - [My GitHub](https://https://github.com/mkerr-github)
+- Frontend Mentor - [My Frontend Mentor Profile](https://www.frontendmentor.io/profile/mkerr-github)

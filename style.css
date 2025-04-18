@@ -10,26 +10,71 @@
     --grey-500: hsl(234, 12%, 34%);
     --grey-400: hsl(212, 6%, 44%);
     --white: hsl(0, 0%, 100%);
+    --shawdow-color: hsl(213, 47%, 67%, 50%);
 
 }
 
-.poppins-200 {
-    font-family: "Poppins", sans-serif;
-    font-weight: 200;
-    font-style: normal;
-}
-
-.poppins-400 {
-    font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
-
-.poppins-600 {
-    font-family: "Poppins", sans-serif;
+.text-preset-1 {
     font-weight: 600;
-    font-style: normal;
+    font-size: 36px;
+    line-height: 140%;
+    letter-spacing: 0.25px;
 }
+
+.text-preset-2 {
+    font-weight: 200;
+    font-size: 36px;
+    line-height: 140%;
+    letter-spacing: 0.25px;
+}
+
+.text-preset-3 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 135%;
+    letter-spacing: 0;
+}
+
+.text-preset-4 {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 140%;
+    letter-spacing: 0.1px;
+}
+
+.text-preset-5 {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 160%;
+    letter-spacing: 0.09px;
+}
+
+
+.text-preset-Mobile-4 {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 140%;
+    letter-spacing: 0.1px;
+}
+
+.text-preset-Mobile-1 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 140%;
+    letter-spacing: 0.25px;
+}
+
+.text-preset-Mobile-2 {
+    font-weight: 200;
+    font-size: 24px;
+    line-height: 140%;
+    letter-spacing: 0.25px;
+}
+
+
+
+
+
 
 /********************* Standard Resets ***********************/
 
@@ -68,6 +113,109 @@ video {
 
 /*************************************************************/
 
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+main {
+    margin-top: 56px;
+    margin-bottom: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+header {
+    max-width: 314px;
+    text-align: center;
+    color: var(--grey-500);
+}
+
+
+.eyebrow {
+    /*text-preset-Mobile-2*/
+    font-weight: 200;
+    font-size: 24px;
+    line-height: 140%;
+    letter-spacing: 0.25px;
+}
+
+header h1 {
+    /*text-preset-Mobile-1*/
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 140%;
+    letter-spacing: 0.25px;
+    margin-bottom: 16px;
+}
+
+.header-blurb {
+    margin-bottom: 60px;
+    /*text-preset-Mobile-4*/
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 140%;
+    letter-spacing: 0.1px;
+}
+
+
+.supervisor {
+    border-top: 4px solid var(--cyan);
+    grid-area: super;
+}
+
+.team-builder {
+    border-top: 4px solid var(--red);
+    grid-area: team;
+}
+
+.karma {
+    border-top: 4px solid var(--orange);
+    grid-area: karma;
+}
+
+.calculator {
+    border-top: 4px solid var(--blue);
+    grid-area: calc;
+}
+
+
+article {
+    border-radius: 8px;
+    max-width: 314px;
+    padding: 32px;
+    margin-bottom: 32px;
+    box-shadow: 0px 15px 20px -11px var(--shawdow-color);
+
+}
+
+article h2 {
+    color: var(--grey-500);
+    /*text-preset-3*/
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 135%;
+    letter-spacing: 0;
+    margin-bottom: 2px;
+}
+
+article p {
+    color: var(--grey-400);
+    /*text-preset-5*/
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 160%;
+    letter-spacing: 0.09px;
+    margin-bottom: 32px;
+}
+
+article img {
+    margin-left: auto;
+    margin-bottom: 15px;
+}
+
 
 footer {
     margin-top: 1rem;
@@ -89,31 +237,81 @@ footer {
 
 .attribution a:hover,
 .attribution a:focus {
-    color: black;
     outline: none;
+    background-color: var(--orange);
 }
 
 
 /************************ Responsive *************************/
 
-/* Tablet (min-width: 768px) */
-@media (min-width: 768px) {
+/* Tablet (min-width: 650px) */
+@media (min-width: 650px) {
 
-    .someclass {
-        font-size: 14px;
-        letter-spacing: 0;
-        min-width: 384px;
-        padding: 40px;
+
+    main {
+        margin-top: 80px;
+        margin-bottom: 80px;
     }
+
+
+    .eyebrow {
+        /*text-preset-2*/
+        font-weight: 200;
+        font-size: 36px;
+        line-height: 140%;
+        letter-spacing: 0.25px;
+    }
+
+    header {
+        max-width: 540px;
+    }
+
+    header h1 {
+        /*text-preset-1*/
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 140%;
+        letter-spacing: 0.25px;
+    }
+
+
+    .header-blurb {
+        margin-bottom: 72px;
+        /*text-preset-Mobile-4 = text-preset-4*/
+    }
+
+    .grid-wrapper {
+        display: grid;
+        gap: 32px;
+        grid-template-areas:
+            /* requires 4 columns, and 3 rows */
+            ".     super  super   ."
+            "team  team   karma   karma"
+            ".     calc   calc    .";
+    }
+
+    article {
+        margin-bottom: 0;
+    }
+
 }
 
 /* Desktop (min-width: 992px) */
 @media (min-width: 992px) {
 
-    .someclass {
-        font-size: 14px;
-        letter-spacing: 0;
-        min-width: 384px;
-        padding: 40px;
+    .grid-wrapper {
+        display: grid;
+        gap: 32px;
+        grid-template-areas:
+            /* requires 3 columns, and 4 rows */
+            "....   team   ...."
+            "super  team   calc"
+            "super  karma  calc"
+            "....   karma  ....";
+
+        article {
+            max-width: 350px;
+        }
+
     }
 }
