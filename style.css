@@ -116,12 +116,11 @@ video {
 
 body {
     font-family: "Poppins", sans-serif;
-    background-color: var(--bg-color)
+    background-color: var(--bg-color);
+    min-height: 100vh;
 }
 
 main {
-    margin-top: 56px;
-    margin-bottom: 14px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -303,9 +302,10 @@ footer {
             "super  karma  calc"
             "....   karma  ....";
 
-        article {
-            max-width: 350px;
-        }
-
     }
+
+    article {
+        max-width: 350px;
+    }
+
 }
