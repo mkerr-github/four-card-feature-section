@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://www.frontendmentor.io/solutions/four-card-feature-section-with-mobile-tablet-and-desktop-layouts-TnfVnDBiz3](https://www.frontendmentor.io/solutions/four-card-feature-section-with-mobile-tablet-and-desktop-layouts-TnfVnDBiz3)
+- Solution URL: [https://www.frontendmentor.io/solutions/four-card-feature-section-TEJiIkoYdX](https://www.frontendmentor.io/solutions/four-card-feature-section-TEJiIkoYdX)
 - Live Site URL: [https://mkerr-github.github.io/four-card-feature-section/](https://mkerr-github.github.io/four-card-feature-section/)
 
 ## My process
