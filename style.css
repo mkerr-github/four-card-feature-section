@@ -1,7 +1,6 @@
 /************************** Global ***************************/
 
 :root {
-
     --red: hsl(0, 78%, 62%);
     --cyan: hsl(180, 62%, 55%);
     --orange: hsl(34, 97%, 64%);
@@ -11,74 +10,67 @@
     --grey-400: hsl(212, 6%, 44%);
     --white: hsl(0, 0%, 100%);
     --shadow-color: hsl(213, 47%, 67%, 50%);
-    --bg-color: rgb(248, 248, 248);
-
+    --bg-color: hsl(0, 0%, 97%);
 }
 
 .text-preset-1 {
     font-weight: 600;
-    font-size: 36px;
+    font-size: 2.25rem;
     line-height: 140%;
-    letter-spacing: 0.25px;
+    letter-spacing: 0.015625rem;
 }
 
 .text-preset-2 {
     font-weight: 200;
-    font-size: 36px;
+    font-size: 2.25rem;
     line-height: 140%;
-    letter-spacing: 0.25px;
+    letter-spacing: 0.1.5625rem;
 }
 
 .text-preset-3 {
     font-weight: 600;
-    font-size: 20px;
+    font-size: 1.25rem;
     line-height: 135%;
     letter-spacing: 0;
 }
 
 .text-preset-4 {
     font-weight: 400;
-    font-size: 15px;
+    font-size: 0.9375rem;
     line-height: 140%;
-    letter-spacing: 0.1px;
+    letter-spacing: 0.0.0625rem;
 }
 
 .text-preset-5 {
     font-weight: 400;
-    font-size: 13px;
+    font-size: 0.8125rem;
     line-height: 160%;
-    letter-spacing: 0.09px;
+    letter-spacing: 0.005625rem;
 }
 
 
 .text-preset-Mobile-4 {
     font-weight: 400;
-    font-size: 15px;
+    font-size: 0.9375rem;
     line-height: 140%;
-    letter-spacing: 0.1px;
+    letter-spacing: 0.00625rem;
 }
 
 .text-preset-Mobile-1 {
     font-weight: 600;
-    font-size: 24px;
+    font-size: 1.5rem;
     line-height: 140%;
-    letter-spacing: 0.25px;
+    letter-spacing: 0.015625rem;
 }
 
 .text-preset-Mobile-2 {
     font-weight: 200;
-    font-size: 24px;
+    font-size: 20.25rem;
     line-height: 140%;
-    letter-spacing: 0.25px;
+    letter-spacing: 0.015625rem;
 }
 
-
-
-
-
-
 /********************* Standard Resets ***********************/
-
 
 *,
 *::before,
@@ -105,125 +97,108 @@ video {
     max-width: 100%;
 }
 
-/********************** Test & Debug *************************/
-
-/* * {
-    outline: 1px solid green;
-    background-color: hsl(155, 68%, 71%);
-} */
-
 /*************************************************************/
-
-html {
-    height: 100%;
-}
 
 body {
     font-family: "Poppins", sans-serif;
     background-color: var(--bg-color);
-    height: 100%;
 }
 
 main {
     background-color: var(--bg-color);
-    margin-top: 16px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height: 100vh;
+    height: 100dvh;
 }
 
 header {
-    max-width: 314px;
+    max-width: 19.625rem;
     text-align: center;
     color: var(--grey-500);
 }
 
-
 .eyebrow {
     /*text-preset-Mobile-2*/
     font-weight: 200;
-    font-size: 24px;
+    font-size: 1.5rem;
     line-height: 140%;
-    letter-spacing: 0.25px;
+    letter-spacing: 0.015625rem;
 }
 
 header h1 {
     /*text-preset-Mobile-1*/
     font-weight: 600;
-    font-size: 24px;
+    font-size: 1.5rem;
     line-height: 140%;
-    letter-spacing: 0.25px;
-    margin-bottom: 16px;
+    letter-spacing: 0.015625rem;
+    margin-bottom: 1rem;
 }
 
 .header-blurb {
-    margin-bottom: 60px;
+    margin-bottom: 3.75rem;
     /*text-preset-Mobile-4*/
     font-weight: 400;
-    font-size: 15px;
+    font-size: 0.9375rem;
     line-height: 140%;
-    letter-spacing: 0.1px;
+    letter-spacing: 0.00625rem;
 }
 
-
 .supervisor {
-    border-top: 4px solid var(--cyan);
+    border-top: 0.25rem solid var(--cyan);
     grid-area: super;
 }
 
 .team-builder {
-    border-top: 4px solid var(--red);
+    border-top: 0.25rem solid var(--red);
     grid-area: team;
 }
 
 .karma {
-    border-top: 4px solid var(--orange);
+    border-top: 0.25rem solid var(--orange);
     grid-area: karma;
 }
 
 .calculator {
-    border-top: 4px solid var(--blue);
+    border-top: 0.25rem solid var(--blue);
     grid-area: calc;
 }
 
 
 article {
     background-color: var(--white);
-    border-radius: 8px;
-    max-width: 314px;
-    padding: 32px;
-    margin-bottom: 32px;
-    box-shadow: 0px 15px 20px -11px var(--shadow-color);
-
+    border-radius: 0.5rem;
+    max-width: 19.625rem;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 0.9375rem 1.25rem -0.6875rem var(--shadow-color);
 }
 
 article h2 {
     color: var(--grey-500);
     /*text-preset-3*/
     font-weight: 600;
-    font-size: 20px;
+    font-size: 1.25rem;
     line-height: 135%;
     letter-spacing: 0;
-    margin-bottom: 2px;
+    margin-bottom: 0.125rem;
 }
 
 article p {
     color: var(--grey-400);
     /*text-preset-5*/
     font-weight: 400;
-    font-size: 13px;
+    font-size: 0.8125rem;
     line-height: 160%;
-    letter-spacing: 0.09px;
-    margin-bottom: 32px;
+    letter-spacing: 0.005625rem;
+    margin-bottom: 2rem;
 }
 
 article img {
     margin-left: auto;
-    margin-bottom: 15px;
+    margin-bottom: 0.9375rem;
 }
-
 
 footer {
     margin-top: 1rem;
@@ -239,8 +214,6 @@ footer {
     text-align: center;
 }
 
-
-
 .attribution a:hover,
 .attribution a:focus {
     outline: none;
@@ -250,38 +223,37 @@ footer {
 
 /************************ Responsive *************************/
 
-/* Tablet (min-width: 650px) */
-@media (min-width: 650px) {
+/* Tablet (min-width: 40rem) */
+@media (min-width: 40rem) {
 
     .eyebrow {
         /*text-preset-2*/
         font-weight: 200;
-        font-size: 36px;
+        font-size: 2.25rem;
         line-height: 140%;
-        letter-spacing: 0.25px;
+        letter-spacing: 0.015625rem;
     }
 
     header {
-        max-width: 540px;
+        max-width: 33.75rem;
     }
 
     header h1 {
         /*text-preset-1*/
         font-weight: 600;
-        font-size: 36px;
+        font-size: 2.25rem;
         line-height: 140%;
-        letter-spacing: 0.25px;
+        letter-spacing: 0.015625rem;
     }
 
-
     .header-blurb {
-        margin-bottom: 72px;
+        margin-bottom: 4.5rem;
         /*text-preset-Mobile-4 = text-preset-4*/
     }
 
     .grid-wrapper {
         display: grid;
-        gap: 32px;
+        gap: 2rem;
         grid-template-areas:
             /* requires 4 columns, and 3 rows */
             ".     super  super   ."
@@ -292,26 +264,23 @@ footer {
     article {
         margin-bottom: 0;
     }
-
 }
 
-/* Desktop (min-width: 992px) */
-@media (min-width: 992px) {
+/* Desktop (min-width: 60rem) */
+@media (min-width: 60rem) {
 
     .grid-wrapper {
         display: grid;
-        gap: 32px;
+        gap: 2rem;
         grid-template-areas:
             /* requires 3 columns, and 4 rows */
             "....   team   ...."
             "super  team   calc"
             "super  karma  calc"
             "....   karma  ....";
-
     }
 
     article {
-        max-width: 350px;
+        max-width: 21.875rem;
     }
-
 }
