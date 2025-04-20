@@ -24,7 +24,7 @@
     font-weight: 200;
     font-size: 2.25rem;
     line-height: 140%;
-    letter-spacing: 0.1.5625rem;
+    letter-spacing: 0.015625rem;
 }
 
 .text-preset-3 {
@@ -38,7 +38,7 @@
     font-weight: 400;
     font-size: 0.9375rem;
     line-height: 140%;
-    letter-spacing: 0.0.0625rem;
+    letter-spacing: 0.00625rem;
 }
 
 .text-preset-5 {
@@ -65,7 +65,7 @@
 
 .text-preset-Mobile-2 {
     font-weight: 200;
-    font-size: 20.25rem;
+    font-size: 1.5rem;
     line-height: 140%;
     letter-spacing: 0.015625rem;
 }
@@ -111,6 +111,7 @@ main {
     align-items: center;
     justify-content: center;
     min-height: 100dvh;
+    position: relative;
 }
 
 header {
@@ -201,8 +202,9 @@ article img {
 }
 
 footer {
+    background-color: var(--bg-color);
     margin-top: 1rem;
-    position: absolute;
+    position: fixed;
     bottom: 1rem;
     left: 0;
     right: 0;
