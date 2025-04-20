@@ -271,6 +271,10 @@ footer {
 /* Desktop (min-width: 60rem) */
 @media (min-width: 60rem) {
 
+    main {
+        margin-top: 1.25rem;
+    }
+
     .grid-wrapper {
         display: grid;
         gap: 2rem;
